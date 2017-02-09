@@ -1,0 +1,5 @@
+Doesn't seem to work anymore
+$("a").filter(function(index){return $(this).text()==="unsave"}).click();
+
+New
+document.querySelectorAll("a").forEach(function(index,other){if(index.text==="unsave"){index.click();}});
